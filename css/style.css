@@ -46,3 +46,64 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/***********************************************************
+********************END RESET CSS***************************
+************************************************************/
+
+body {
+    background-color: LightGray;
+}
+
+div {
+    border: 1px solid Chocolate;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: black;
+}
+
+a: visited {
+	color: #999;
+}
+
+.nav-links,
+.nav-links li,
+.logo-img {
+	display: inline-block;
+}
+
+.navbar {
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 1em;
+	box-shadow: 1px 1px 1px -1px gray;
+}
+
+.navbar-content {
+	margin: 0 20em;
+	border: none;
+}
+
+.nav-links {
+	float: right;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.nav-links li {
+	padding: 1em;
+}
+
+.logo-img {
+	height: 2.5em;
+}
+
+.nav-link--current {
+	font-weight: bold;
+}
