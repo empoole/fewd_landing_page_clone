@@ -63,11 +63,11 @@ body {
     font-family: 'Roboto', sans-serif; 
     -webkit-font-smoothing: antialiased;
 }
-
+/*
 div {
     border: 1px solid Chocolate;
 }
-
+*/
 .content {
 	padding: 0 0.938rem;
 	min-width: 37.5rem;
@@ -143,6 +143,7 @@ div {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 45.938rem;
+	overflow: auto;
 }
 
 .introduction h1,
