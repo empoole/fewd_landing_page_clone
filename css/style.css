@@ -218,13 +218,18 @@ div {
 /**Footer**/
 .social {
 	background-color: white;
-	padding-bottom: 10rem;
+	padding-bottom: 8rem;
 }
 
 .social > .content {
-	border-top: 1px solid gray;
 	text-align: center;
 	padding: 1rem;
+}
+
+.social hr {
+	border: none;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
 }
 
 .copyright {
