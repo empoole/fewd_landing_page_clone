@@ -68,6 +68,16 @@ div {
     border: 1px solid Chocolate;
 }
 
+.content {
+	padding: 0 0.938rem;
+	min-width: 37.5rem;
+	width: 970px;
+	margin: 0 auto;
+	width: 970px
+}
+
+/**Navigation**/
+
 .nav-links,
 .nav-links li,
 .logo {
@@ -80,14 +90,7 @@ div {
 	top: 0;
 	width: 100%;
 	box-shadow: 1px 1px 1px -1px gray;
-}
-
-.content {
-	padding: 0 0.938rem;
-	min-width: 37.5rem;
-	width: 970px;
-	margin: 0 auto;
-	width: 970px
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -127,10 +130,12 @@ div {
     color: #333333;
 }
 
-
 .nav-links a:visited {
 	color: inherit;
 }
+
+
+/**Introduction**/
 
 .introduction {
 	background-image: url('../images/first-background copy.jpg');
@@ -176,6 +181,8 @@ div {
 	border-color: #cf3d0e;
 }
 
+/**Devices**/
+
 .icons {
 	background-color: white;
 	text-align: center;
@@ -205,4 +212,46 @@ div {
 	width: 33.3333333%;
 	display: inline-block;
 	margin: -4px;
+}
+
+/**Footer**/
+.social {
+	background-color: white;
+	padding-bottom: 10rem;
+}
+
+.social > .content {
+	border-top: 1px solid gray;
+	text-align: center;
+	padding: 1rem;
+}
+
+.copyright {
+	color: gray;
+}
+
+.icons > li {
+	margin: 1.25rem 5px;
+	padding: 0.625rem 0;
+	display: inline-block;
+	border: 1px solid #eaebec;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 1.25rem;
+}
+
+.icons > li:hover {
+	cursor: pointer;
+}
+
+.fa-instagram {
+	color: #3f729b;
+}
+
+.fa-facebook {
+	color: #4c66a4;
+}
+
+.fa-twitter {
+	color: #55acee;
 }
